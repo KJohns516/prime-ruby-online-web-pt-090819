@@ -7,7 +7,7 @@ describe "prime?" do
     expect(prime?(3)).to be(true)
     expect(prime?(11)).to be(true)
     expect(prime?(105557)).to be(true)
-    puts (number)
+    puts (prime)
   end
 
   it 'returns false for non-prime numbers' do
